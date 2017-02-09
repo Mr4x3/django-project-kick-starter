@@ -65,7 +65,7 @@ Rest of this README will be copied to the generated project.
 
 {% endcomment %}
 
-# {{ project_name }} #
+# {{ project_name | title }} #
 
 ### About ###
 
