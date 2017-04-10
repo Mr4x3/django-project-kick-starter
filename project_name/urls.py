@@ -22,7 +22,7 @@ from django.conf.urls import url
 from django.contrib import admin
 
 
-admin.site.site_header = admin.site.site_title = {{ project_name | title }}
+admin.site.site_header = admin.site.site_title = '{{ project_name | title }}'
 
 
 urlpatterns = [

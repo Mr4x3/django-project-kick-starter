@@ -24,11 +24,11 @@ Using this template to create a new Django app is easy::
 
 ## Quick Start:
 
-1. `$ django-admin startapp --template=https://github.com/Mr4x3/django-project-kick-starter/archive/master.zip --extension=*,py,html,env,md YOUR-APP-NAME`
+1. `$ django-admin startproject --template=https://github.com/Mr4x3/django-project-kick-starter/archive/master.zip --name=Procfile --extension=*,py,html,env,md YOUR-APP-NAME`
 
 __or__
 
-- `$ django-admin startapp --template=~/Documents/django-projects/django-project-kick-starter --name=Procfile --extension=py,html,env,md YOUR-APP-NAME`
+1. `$ django-admin startproject --template=~/Documents/django-projects/django-project-kick-starter --name=Procfile --extension=py,html,env,md YOUR-APP-NAME`
 
 
 You can replace ``YOUR-APP-NAME`` with your desired project name.
@@ -64,7 +64,6 @@ Rest of this README will be copied to the generated project.
 --------------------------------------------------------------------------------------------
 
 {% endcomment %}
-
 # {{ project_name | title }} #
 
 ### About ###
